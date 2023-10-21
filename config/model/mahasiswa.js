@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 const db = require("../database/mysql");
 var mahasiswa = db.define(
-  "mahasiswa",
+  "customers",
   {
     nim: Sequelize.INTEGER,
     nama: Sequelize.STRING,
