@@ -1,7 +1,8 @@
 var Sequelize = require("sequelize");
-var db = new Sequelize("express", "root", "tanah_jawaku", {
+var db = new Sequelize("railway", "root", "bVBb1tEEtwKWbswieUfy", {
+  host: "containers-us-west-170.railway.app",
+  port: "5520",
   dialect: "mysql",
-  host: "localhost",
 });
 
 module.exports = db;
