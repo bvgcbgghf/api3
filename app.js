@@ -33,7 +33,7 @@ const mahasiswaRoutes = require("./routes/mahasiswa");
 app.use(morgan("dev"));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use("/mahasiswa", mahasiswaRoutes);
+app.use("/customers", mahasiswaRoutes);
 
 app.use((req, res, next) => {
   const error = new Error("Tidak ditemukan");
