@@ -1,7 +1,7 @@
 var Sequelize = require("sequelize");
-var db = new Sequelize("railway", "root", "2hkOXvJ9lnPW7MmFxIxg", {
-  host: "containers-us-west-35.railway.app",
-  port: "5524",
+var db = new Sequelize("railway", "root", "bVBb1tEEtwKWbswieUfy", {
+  host: "containers-us-west-170.railway.app",
+  port: "5520",
   dialect: "mysql",
 });
 
